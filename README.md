@@ -8,6 +8,10 @@ You get error you get when you dial a peer:
     Error: Error occurred during XX handshake: Cannot decode stage 1 MessageBuffer: length less than 80 bytes.
 ```
 
+A couple notes:
+* You don't get this error in dev mode (`yarn next dev`)
+* You don't get this error if you disable swcMinify.
+
 
 ## Setup
 
